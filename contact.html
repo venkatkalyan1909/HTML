@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="assets/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Conatct Us</h1>
+      </div>
+    </section>
+    <!-- contact us -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.2774677608!2d78.1278400069241!3d17.412808363619536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1640070050028!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="col-contact">
+          <div>
+            <i class="fab fa-home"></i>
+            <span>
+              <h5>address</h5>
+              <p>qwertyuiopa</p>
+            </span>
+          </div>
+          <div>
+            <i class="fab fa-phone"></i>
+            <span>
+              <h5>phone</h5>
+              <p>+987654321</p>
+            </span>
+          </div>
+        </div>
+        <div class="col-contact">
+          <form action="">
+            <input type="text" placeholder="enter your name" required />
+            <input type="email" placeholder="enter your email" required />
+            <input
+              type="phone"
+              placeholder="enter your phone number"
+              required
+            />
+            <textarea rows="8" placeholder="message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section>
+      <footer class="footer">
+        <h4>About Us</h4>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text<br />
+          ever since the 1500s.
+        </p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <p>made with <i class="fas fa-heart"></i> by venkat kalyan</p>
+        </div>
+      </footer>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
